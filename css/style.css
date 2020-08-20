@@ -42,9 +42,15 @@ body{
     font-weight: 600;
 }
 
-.col-3{
-    padding: 0 50px; 
+#dMode{
+    font-size: 13px;
+    color: var(--text-color-2);
+    font-weight: 600;
 }
+
+ .col{
+    padding: 0 50px; 
+} 
 
 .box{
     background-color: var(--box-bg-color);
@@ -203,9 +209,4 @@ input:checked + .slider:before {
     transform: translateX(26px);
   }
 
-.col-2{
-    font-size: 13px;
-    color: var(--text-color-2);
-    font-weight: 600;
-}
 
