@@ -209,4 +209,66 @@ input:checked + .slider:before {
     transform: translateX(26px);
   }
 
+@media screen and (max-width: 1024px){
+    .col{
+        padding-left: 35px;
+    }
+}
 
+@media screen and (max-width: 991px){
+    .header{
+        text-align: center;
+    }
+    .middle{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .col{
+        padding-left: 75px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .col{
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .col{
+        padding-left: 170px;
+    }
+}
+
+
+@media screen and (max-width: 564px){
+    .col{
+        padding-left: 160px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .col{
+        padding-left: 140px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .col{
+        padding-left: 106px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .col{
+        padding-left: 85px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .col{
+        padding-left: 55px;
+    }
+}
